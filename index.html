@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        h2 {
+            font-weight: 700;
+            font-style: italic;
+            text-shadow: skyblue 2px 4px;
+        }
+
+        h1 {
+            text-shadow: rgb(60, 244, 84) 2px 4px;
+        }
+
+        h5 {
+            text-decoration: underline;
+        }
+
+        .container {
+            background-color: rgb(255, 225, 221);
+            border-radius: 10px;
+            padding: 5px 5px 50px 50px;
+            top: 0;
+        }
+
+        body {
+            margin: 15px 34px;
+            padding: 10px 100px 10px 100px;
+            font-size: 15px;
+            font: 1rem sans-serif;
+            box-sizing: 20px 20px;
+            line-height: 30px;
+        }
+
+        form {
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            <center><i><u> Login Page</u></i></center>
+        </h1>
+        <h2>
+            Personal Details of User
+        </h2>
+        <form action="/action.php">
+            <input type="text" placeholder="Enter your Name">
+            <br>
+            <br>
+            <input type="text" placeholder="Enter your Age">
+            <br>
+            <br>
+            <input type="text" placeholder="Enter E-mail id">
+            <br>
+            <br>
+            <input type="password" placeholder="Enter password">
+            <br>
+            <br>
+            <input type="text" placeholder="Address">
+            <br>
+            <br>
+            <input type="text" placeholder="College name">
+            <br>
+            <br>
+            <input type="text" placeholder="Department"><br>
+            <br>
+        </form>
+        <h5>What branch you have </h5>
+        <select name="branch" id="branch">
+            <option value="CSE">CSE</option>
+            <option value="CSE AI">CSE AI</option>
+            <option value="IT">IT</option>
+            <option value="MEE">MEE</option>
+            <option value="CHE">CHE</option>
+            <Option value="ECE">ECE</Option>
+
+        </select>
+        <br>
+        <br>
+        <h5>Any Programming Language That You Studied Before</h5>
+        <label for="id1">
+            <input type="checkbox" value="C" name="class" id="id1">C
+        </label>
+        <label for="id2">
+            <input type="checkbox" value="C++" name="class" id="id2">C++
+
+        </label>
+        <label for="id3">
+            <input type="checkbox" value="Python" name="class" id="id3">Python
+
+        </label>
+        <label for="id4">
+            <input type="checkbox" value="Java" name="class" id="id4">Java
+        </label>
+        <label for="id5">
+            <input type="checkbox" value="PHP" name="class" id="id5">PHP
+
+        </label>
+        <label for="id6">
+            <input type="checkbox" value="HTML" name="class" id="id6">HTML
+        </label>
+        <label for="id7">
+            <input type="checkbox" value="Any other " name="class" id="id7">Any other
+        </label>
+        <br>
+        <br>
+        <h5>Add your interest towards any other field</h5>
+        <textarea name="interest" id="interest" placeholder="Add you interest"></textarea>
+        <br>
+        <br>
+        <h5>Add your feedback</h5>
+        <textarea name="feedback" id="feedback" placeholder="Add your feedback"></textarea>
+        <br>
+        <br>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
